@@ -1,0 +1,237 @@
+/* Empty. Add your own CSS if you like */
+.body-mart {
+	background-color: #f2f2f2;
+}
+.bar-redmart {
+	background-color: #de142b;
+	
+}
+.bar-redmart .title-redmart {
+	color: #fff;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	overflow: hidden;
+	margin: 0 10px;
+	min-width: 30px;
+	height: 43px;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 44px;
+}
+
+.title-redmart a {
+	color: #fff;
+	padding-right: 10%;
+	left: 0;
+}
+.product {
+	position: relative;
+	font-family: 'Tahoma', Geneva, sans-serif;
+	background-color: #fff;
+	min-height: 230px;
+	padding: 5% 5% 0%;
+	margin-bottom: 3%;
+}
+
+.product .img {
+  width: 100%;
+  height: 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 120%;
+}
+.product-one {
+	position: relative;
+	font-family: 'Tahoma', Geneva, sans-serif;
+	background-color: #fff;
+	min-height: 230px;
+	padding: 5% 5% 0%;
+	margin-bottom: 3%;
+}
+.img-one {
+  width: 100%;
+  height: 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 120%;
+  
+}
+/*.product .img img {
+	width: 100%;
+	max-height: 50%;
+	padding: 10%;
+}*/
+
+.product .product-title {
+	padding-left: 10%;
+	padding-right: 10%;
+	bottom: 35%;
+	position: absolute;
+	color: #6d6868;
+	font-weight: 600;
+	font-size: 60%;
+	line-height: 1.3em;
+
+}
+
+.product .product-weight {
+	font-size: 60%;
+	padding-left: 10%;
+	color: #a19e9e;
+	font-weight: 600;
+	bottom: 23%;
+	position: absolute;
+}
+
+.product .product-price {
+	font-size: 60%;
+	padding-left: 10%;
+	color: #3c3b3b;
+	bottom: 16%;
+	font-weight: bold;
+	position: absolute;
+}
+
+.product .product-add-to-cart {
+	background-color: #d0cece;
+	width: 90%;
+	text-align: center;
+	color: #de142b;
+	font-size: 10px;
+	height: 40px;
+	border: 0;
+	border-radius: 3px;
+	position:absolute;
+    bottom:0px;
+	
+}
+
+.product-one {
+	position: relative;
+	font-family: 'Tahoma', Geneva, sans-serif;
+	background-color: #fff;
+	min-height: 500px;
+	padding-left: 0;
+	padding-right: 0;
+	
+}
+.product-one .img-one {
+  width: 100%;
+  height: 250px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  
+}
+
+.product-one .product-title-one {
+	padding-left: 10%;
+	padding-right: 10%;
+	bottom: 30%;
+	position: absolute;
+	color: #6d6868;
+	font-weight: 900;
+	font-size: 100%;
+	line-height: 1.3em;
+
+}
+
+.product-one .product-weight-one {
+	font-size: 100%;
+	padding-left: 10%;
+	color: #a19e9e;
+	font-weight: 600;
+	bottom: 22%;
+	position: absolute;
+}
+.product-one .line-one {
+	width: 100%;
+	/*padding-left: 10%;*/
+	color: #a19e9e;
+	
+	bottom: 15%;
+	position: absolute;
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+}
+
+.product-one .product-price-one {
+	font-size: 100%;
+	padding-left: 10%;
+	color: #3c3b3b;
+	bottom: 10%;
+	font-weight: bold;
+	position: absolute;
+}
+
+.product-one .product-add-to-cart-one {
+	background-color: #de142b;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+	height: 40px;
+	border: 0;
+	
+	position:absolute;
+    bottom:0px;
+	
+}
+.desc-product {
+	position: relative;
+	font-family: 'Tahoma', Geneva, sans-serif;
+	background-color: #fff;
+	min-height: 140px;
+	padding-left: 0;
+	padding-right: 0;
+	/*margin-bottom: 3%;*/
+	margin-top: -5.5%;
+}
+
+.desc-product .t-about {
+	padding-top: 5%;
+	font-size: 70%;
+	padding-left: 10%;
+	color: #a19e9e;
+	font-weight: 600;
+}
+
+.desc-product .t-text {
+	font-size: 90%;
+	padding-left: 10%;
+	color: #6d6868;
+	font-weight: 600;
+	
+}
+
+
+
+.desc-product .line-one {
+	width: 100%;
+	/*padding-left: 10%;*/
+	color: #a19e9e;
+	
+	
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+}
+
+.desc-product .t-desc {
+	font-size: 70%;
+	padding-left: 10%;
+	color: #a19e9e;
+	font-weight: 600;
+	
+}

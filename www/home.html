@@ -1,0 +1,25 @@
+<ion-header-bar class="bar-redmart" ng-controller="HomeController">
+    <h1 class="title-redmart">{{NavTitle}}</h1>
+</ion-header-bar>
+<ion-view title="Home">
+  <ion-content class="body-mart">
+    <div style="padding-top: 10%;">
+      <div class="row" ng-repeat="product in products" >
+              <div ng-repeat="item in product" class="col">
+                <div class="product">
+                  <div class="img" style="background-image: url('http://media.redmart.com/newmedia/200p{{item.img.name}}')">
+                  </div>
+                  <div class="product-title">{{ item.title }}</div>
+                  <div class="product-weight">
+                    {{item.measure.wt_or_vol}}
+                  </div>
+                  <div class="product-price">${{item.pricing.price}}</div>
+                  <a href="#/product/{{item.id}}"><button class="product-add-to-cart">ADD TO CART</button></a>
+                  </div>
+              
+              </div>
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>
